@@ -14,7 +14,7 @@ playButton.addEventListener('click',
             nuovoElemento.addEventListener('click', 
                 function(){
                     nuovoElemento.classList.toggle('clicked');
-                    console.log([i])
+                    console.log([i + 1]);
                 }
             );
             // Aggiungo nuovoElemento a myContainer
